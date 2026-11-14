@@ -1,0 +1,20 @@
+{
+  "name": "yirou-factory",
+  "interface": {
+    "displayName": "依柔工厂"
+  },
+  "plugins": [
+    {
+      "name": "yirou-factory-plan",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yirou-factory-plan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

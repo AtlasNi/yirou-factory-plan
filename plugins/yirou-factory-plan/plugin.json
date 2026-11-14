@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "yirou-factory-plan",
+  "version": "1.0.1",
+  "description": "依柔工厂产品二创、材料包拆解、AI样品图与在线方案分享。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "依柔工厂方案",
+        "shortDescription": "匹配工厂设备与已有配件，生成可打样方案和分享链接",
+        "developerName": "依柔工厂",
+        "category": "Productivity"
+      }
+    }
+  }
+}

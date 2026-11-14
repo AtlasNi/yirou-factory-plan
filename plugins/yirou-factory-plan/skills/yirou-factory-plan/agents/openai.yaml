@@ -1,0 +1,4 @@
+interface:
+  display_name: "依柔工厂方案"
+  short_description: "根据产品图片匹配依柔工厂设备、材料和配件，生成方案、样品图及分享链接。"
+  default_prompt: "使用 $yirou-factory-plan，按产品参考图片生成适合依柔工厂的二创方案、材料包拆解、AI样品图和在线分享链接。"
